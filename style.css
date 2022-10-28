@@ -112,7 +112,7 @@ a {
 }
 
 .border-opacity {
-    width: 1920px;
+    width: 100%;
     height: 1px;
     background-color: #1E2E36;
 }
@@ -171,8 +171,6 @@ a {
     width: 278px;
     height: 51px;
 }
-
-
 
 
 /* ///////////////////////////////////////////// */
@@ -545,7 +543,7 @@ a {
 }
 
 .conteiner-photo {
-    height: 770px;
+
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -1043,3 +1041,7 @@ a {
 /* доделать foooter-text-bot  */
 
 /* медиазапросі */
+
+
+
+
