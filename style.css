@@ -465,7 +465,6 @@ a {
 
 .svg-box {
     width: 100%;
-    height: 143px;
     margin: 50px 158px 0 158px;
     display: flex;
     justify-content: space-around;
@@ -554,7 +553,6 @@ a {
 .conteiner-photo-item {
     position: relative;
     cursor: pointer;
-    width: 586px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1037,11 +1035,85 @@ a {
 }
 
 
+/* BURGER////////////////////////////////// */
+
+.burger {
+    display: none;
+
+}
+/* media//////////////////////////////////////// */
+
+@media (max-width: 1387px) {
+    .logo {
+        display: none;
+    }
+    .header-item-bot__menu{
+        display: none;
+
+    }
+    .social {
+        width: 100%;
+    }
+    .header-item-top__menu {
+        display: none;
+    }
+    .svg-box__item {
+        padding: 190px 30px 50px 30px;
+    }
+    
+    .burger {
+        display: block;
+        position: relative;
+        width: 60px;
+        height: 60px;
+    }
+    .burger span {
+       position: absolute;
+       width: 100%;
+       height: 2px;
+       background-color: black;
+       bottom: 0;
+       top: 28px;
+    
+    }
+    .burger::before,
+    .burger::after {
+        content: '';
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+    }
+    .burger::before {
+        top: 15px;
+    }
+    .burger::after {
+        bottom: 15px;
+    
+    }
+}
+@media (max-width: 888px) {
+    .svg-box__item {
+        padding: 190px 10px 50px 10px;
+    }
+    .photo-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .item-photo {
+        width: 300px;
+        height: 200px;
+     
+    }
+    .svg-box {
+        flex-wrap: wrap;
+        
+    }
+}
+
 
 /* доделать foooter-text-bot  */
 
 /* медиазапросі */
-
-
-
-
