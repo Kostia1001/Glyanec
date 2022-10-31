@@ -16,7 +16,10 @@ a {
     text-decoration: none;
 }
 
-
+body {
+    left: 0;
+    right: 0;
+}
 
 .header {
     height: 165px;
